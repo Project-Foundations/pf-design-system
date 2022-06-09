@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  [data-theme='default'] {
+    --color-primary: #039be5;
+    --color-secondary: #5cb615;
+    --color-alternative: #0b2739;
+    --color-black: #131318;
+    --font-size-base: 12px;
+  }
+}
